@@ -8,7 +8,9 @@ namespace ZeldaSolarusRandomizer
 
         static void Main(string[] args)
         {
-            Randomizer randomizer = new Randomizer();
+            int seed = Environment.TickCount;
+            Console.WriteLine("Seed: " + seed);
+            Randomizer randomizer = new Randomizer(seed);
             bool success = false;
             int iteration = 0;
             while (!success)

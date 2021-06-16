@@ -39,9 +39,9 @@ namespace ZeldaSolarusRandomizer
         public List<Chest> ChestsList { get; set; }
         Random random;
 
-        public Randomizer()
+        public Randomizer(int seed)
         {
-            random = new Random();
+            random = new Random(seed);
         }
 
         public void InitChestPool()
