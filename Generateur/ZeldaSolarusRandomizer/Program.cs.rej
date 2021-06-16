@@ -1,0 +1,28 @@
+diff a/Generateur/ZeldaSolarusRandomizer/Program.cs b/Generateur/ZeldaSolarusRandomizer/Program.cs	(rejected hunks)
+@@ -9,14 +9,22 @@
+         static void Main(string[] args)
+         {
+             Randomizer randomizer = new Randomizer();
+-            randomizer.InitChestsLists();
+-            randomizer.InitChestPool();
++            bool success = false;
++            int iteration = 0;
++            while (!success)
++            {
++                randomizer.InitChestsLists();
++                randomizer.InitChestPool();
++
++                randomizer.RandomizedChestList();
++                success = randomizer.VerifyChests();
++                iteration++;
++                Console.WriteLine(iteration);
++            }
+ 
+-            randomizer.RandomizedChestList();
+             randomizer.PrintChestList();
+             //randomizer.PrintChestPool();
+ 
+-            randomizer.VerifyChests();
+ 
+             FileManager fileManager = new FileManager();
+             fileManager.ReadFile("RPG_RT.ldb");

@@ -1,0 +1,14 @@
+   ---  The Legend of Zelda : Mystery of Solarus (version zip) ---
+
+             ---  www.zelda-solarus.com  ---
+
+
+Merci d'avoir téléchargé The Legend of Zelda : Mystery of Solarus !
+
+N'oubliez pas de lire la notice avant de jouer. C'est le fichier zsnotice.hlp qui se trouve dans le répertoire d'installation. Vous pouvez également la lire en ligne sur le site.
+
+Avant de jouer, vous devez installer le fichier RM2000 8.FON dans le répertoire Fonts de windows (c:/windows/fonts en général). Redémarrez ensuite votre ordinateur pour que les textes s'affichent dans le jeu.
+
+Pour tous vos commentaires, remarques, questions, laissez un message sur le forum (http://forums.zelda-solarus.com) !
+
+Christopho - christopho@zelda-solarus.com
