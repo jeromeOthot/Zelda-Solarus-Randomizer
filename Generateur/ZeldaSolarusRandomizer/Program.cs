@@ -7,12 +7,17 @@ namespace ZeldaSolarusRandomizer
         static void Main(string[] args)
         {
             Form1 form = new Form1();
-            form.Show();            
+            form.ShowDialog();
         }
 
-        public static void Generate()
+        public static void Generate(int seed = 0)
         {
-            int seed = Environment.TickCount;
+            if(seed == 0)
+            {
+                Random randomSeedNumber = new Random();
+                seed = randomSeedNumber.Next(1, 9999999);
+            }
+               
             Console.WriteLine("Seed: " + seed);
             Randomizer randomizer = new Randomizer(seed);
             bool success = false;

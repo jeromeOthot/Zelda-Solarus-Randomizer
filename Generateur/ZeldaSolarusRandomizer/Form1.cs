@@ -17,14 +17,11 @@ namespace ZeldaSolarusRandomizer
             InitializeComponent();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void GenerateButton_Click(object sender, EventArgs e)
         {
-            main.Generate();
+            int seed = 0;
+            int.TryParse(SeedInput.Text, out seed);
+            main.Generate(seed);
             this.Close();
         }
     }

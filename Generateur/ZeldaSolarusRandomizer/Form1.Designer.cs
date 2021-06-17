@@ -50,7 +50,6 @@
             this.SeedInput.Name = "SeedInput";
             this.SeedInput.Size = new System.Drawing.Size(135, 20);
             this.SeedInput.TabIndex = 1;
-            this.SeedInput.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label1
             // 
