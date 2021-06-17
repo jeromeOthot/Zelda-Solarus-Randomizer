@@ -4,9 +4,13 @@ namespace ZeldaSolarusRandomizer
 {
     public static class main
     {
-        
-
         static void Main(string[] args)
+        {
+            Form1 form = new Form1();
+            form.Show();            
+        }
+
+        public static void Generate()
         {
             int seed = Environment.TickCount;
             Console.WriteLine("Seed: " + seed);
