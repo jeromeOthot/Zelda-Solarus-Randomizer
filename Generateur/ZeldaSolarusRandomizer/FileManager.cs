@@ -6,8 +6,9 @@ namespace ZeldaSolarusRandomizer
 {
     public class FileManager
     {
-        public const int COFFRE_1 = 137002; 
-        public const int NB_BYTES_FOR_NEXT_CHEST = 14; 
+        public const int COFFRE_1 = 137155; // 137002
+        public const int NB_BYTES_FOR_NEXT_CHEST = 14;
+        public const int INDEX_SEED = 139877;//139328;
         public byte[] _fileBytes;
 
         public void ReadFile(string fileName)
@@ -26,7 +27,7 @@ namespace ZeldaSolarusRandomizer
                 }*/
 
                 string data = Utils.ToHex(_fileBytes);
-               // Console.WriteLine(data);
+                // Console.WriteLine(data);
                 /*
                 foreach(byte fileByte in _fileBytes)
                 {
@@ -61,6 +62,19 @@ namespace ZeldaSolarusRandomizer
             else
             {
                 Console.WriteLine(string.Format("Index {0} invalide  !!", index));
+            }
+        }
+
+        public void SetSeedByte(int seed, int debutIndexSeed)
+        {
+            byte hexSeed;
+            int value;
+            for (int i = 0; i < 6; i++)
+            {
+                value = seed % 16;
+                seed = seed/16;
+                hexSeed = (byte)value;
+                _fileBytes[debutIndexSeed + 14 *i] = hexSeed;
             }
         }
 
