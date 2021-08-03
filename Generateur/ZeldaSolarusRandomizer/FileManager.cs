@@ -6,34 +6,17 @@ namespace ZeldaSolarusRandomizer
 {
     public class FileManager
     {
-        public const int COFFRE_1 = 137155; // 137002
         public const int NB_BYTES_FOR_NEXT_CHEST = 14;
-        public const int INDEX_SEED = 139877;//139328;
         public byte[] _fileBytes;
+
+        public int StartChestIndex { get; set; }
+        public int StartSeedIndex => StartChestIndex + (166 * 14);
 
         public void ReadFile(string fileName)
         {
             if (File.Exists(fileName))
             {
-
                 _fileBytes = File.ReadAllBytes(fileName);
-                /*
-                using (BinaryReader reader = new BinaryReader(File.Open(fileName, FileMode.Open)))
-                {
-                    while(reader.BaseStream.Position != reader.BaseStream.Length)
-                    {
-                        _fileBytes.in = reader.();
-                    }
-                }*/
-
-                string data = Utils.ToHex(_fileBytes);
-                // Console.WriteLine(data);
-                /*
-                foreach(byte fileByte in _fileBytes)
-                {
-                    
-                    Console.WriteLine(fileByte);
-                }*/
             }
             else
             {
@@ -41,9 +24,34 @@ namespace ZeldaSolarusRandomizer
             }
         }
 
+        public void GetStartChestIndex()
+        {
+            bool isFound = false;
+            int nbByteBeforeStartIndex = 22;
+            byte[] startData = {
+                0x44, 0x42, 0x5F, 0x56, 0x41, 0x52, 0x49, 0x41, 0x42, 0x4C, 0x45, 0x53
+            };
+
+            for(int i=0; i < _fileBytes.Length; i++ )
+            {
+                for (int s=0; s < startData.Length; s++)
+                {
+                    if (_fileBytes[i+s] != startData[s])
+                        break;
+                    if (s == startData.Length - 1)
+                        isFound = true;
+                }
+                if(isFound == true)
+                {
+                    StartChestIndex = i + nbByteBeforeStartIndex;
+                    break;
+                }
+            }
+        }
+
         public void SetChestList(List<Chest> ChestsList)
         {
-            int index = COFFRE_1;
+            int index = StartChestIndex;
             foreach (var chest in ChestsList)
             {
                 SetChestItemType((byte)chest.Type, index);
@@ -55,9 +63,7 @@ namespace ZeldaSolarusRandomizer
         {
             if (index > 0 && index < _fileBytes.Length)
             {
-                //Console.WriteLine("byte avant: " +_fileBytes[index]);
                 _fileBytes[index] = value;
-                //Console.WriteLine("byte apres: " + _fileBytes[index]);
             }
             else
             {
@@ -65,7 +71,7 @@ namespace ZeldaSolarusRandomizer
             }
         }
 
-        public void SetSeedByte(int seed, int debutIndexSeed)
+        public void SetSeedByte(int seed)
         {
             byte hexSeed;
             int value;
@@ -74,13 +80,12 @@ namespace ZeldaSolarusRandomizer
                 value = seed % 16;
                 seed = seed/16;
                 hexSeed = (byte)value;
-                _fileBytes[debutIndexSeed + 14 *i] = hexSeed;
+                _fileBytes[StartSeedIndex + 14 *i] = hexSeed;
             }
         }
 
         public void  Write(string outputFileName)
         {
-            //string sData = Utils.ToHex(_fileBytes);
             using (BinaryWriter writer = new BinaryWriter(File.Open(outputFileName, FileMode.Create)))
             {
                 foreach(byte data in _fileBytes)
