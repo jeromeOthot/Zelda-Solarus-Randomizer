@@ -24,6 +24,13 @@ namespace ZeldaSolarusRandomizer
             }
         }
 
+        public void BackupFileRPG_RT()
+        {
+            string source = @"..\..\..\..\jeu zelda_mystery_of_solarus_randomizer\RPG_RT.ldb";
+            string dest = @"..\..\..\..\jeu zelda_mystery_of_solarus_randomizer\RPG_RT_Backup.ldb";
+            File.Copy(source, dest, true);
+        }
+
         public void GetStartChestIndex()
         {
             bool isFound = false;
@@ -84,7 +91,7 @@ namespace ZeldaSolarusRandomizer
             }
         }
 
-        public void  Write(string outputFileName)
+        public void  WriteOutputGame(string outputFileName)
         {
             using (BinaryWriter writer = new BinaryWriter(File.Open(outputFileName, FileMode.Create)))
             {
@@ -95,5 +102,19 @@ namespace ZeldaSolarusRandomizer
 
             }
         }
+
+        /*
+        public void WriteSpoiler(string outputFileName)
+        {
+            string spoilerFile = "";
+            using (BinaryWriter writer = new BinaryWriter(File.Open(outputFileName, FileMode.Create)))
+            {
+                foreach (byte data in _fileBytes)
+                {
+                    writer.Write(data);
+                }
+
+            }
+        }*/
     }
 }

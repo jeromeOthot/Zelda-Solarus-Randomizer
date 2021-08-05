@@ -8,6 +8,7 @@ namespace ZeldaSolarusRandomizer
 {
     public class Randomizer
     {
+        public const string SPOILER_FILE =  "Spoiler.txt";
         public const int NB_CHEST = 166;
         public const int NB_HEART = 10;
         public const int NB_QUARTER_HEART = 28;
@@ -35,6 +36,7 @@ namespace ZeldaSolarusRandomizer
 
         private List<Chest> dependenciesList;
 
+        public StreamWriter SpoilerFile { get; set; }
         public List<int> ChestPool = new List<int>();
         public List<Chest> ChestsList { get; set; }
         Random random;
@@ -42,6 +44,8 @@ namespace ZeldaSolarusRandomizer
         public Randomizer(int seed)
         {
             random = new Random(seed);
+            SpoilerFile = new StreamWriter(SPOILER_FILE);
+            WriteSpoilerHeader(seed);
         }
 
         public void InitChestPool()
@@ -53,6 +57,13 @@ namespace ZeldaSolarusRandomizer
                     ChestPool.Add(i);
             }
             Console.WriteLine("Vanilla count: " + ChestsList.Where(x => x.IsVanilla).Count());
+        }
+
+        public void WriteSpoilerHeader(int seedNumber)
+        {
+            SpoilerFile.WriteLine("-----------------------------------------------------------------------------------------");
+            SpoilerFile.WriteLine("Spoiler: seed no. " + seedNumber);
+            SpoilerFile.WriteLine("-----------------------------------------------------------------------------------------");
         }
 
         public void InitChestsLists()
@@ -247,11 +258,17 @@ namespace ZeldaSolarusRandomizer
         {
             int cpt = 0;
             //String [] Itemtypes  = Enum.GetNames(typeof(ItemType));
+            string chestString = "";
+
+            SpoilerFile.WriteLine("-----------------------------------------------------------------------------------------");
             foreach (var chest in ChestsList)
             {
-                Console.WriteLine("Chest " + chest.Id + ": " + chest.ParentLocation + " - "  +  chest.Location +" -> " + chest.Type);
+                chestString = "Chest " + chest.Id + ": " + chest.ParentLocation + " - " + chest.Location + " -> " + chest.Type;
+                Console.WriteLine(chestString);
+                SpoilerFile.WriteLine(chestString);
             }
             Console.WriteLine("Total Chest empty:: " + cpt);
+            SpoilerFile.Close();
         }
 
         public void PrintChestPool()
@@ -282,6 +299,7 @@ namespace ZeldaSolarusRandomizer
             int sphere = 0;
 
             System.Text.StringBuilder walkthrough = new System.Text.StringBuilder();
+           
             //Bloquer à 100 itérations pour éviter la boucle infinie.
             while (!canBeatGanon || sphere > 100)
             {
@@ -318,6 +336,9 @@ namespace ZeldaSolarusRandomizer
 
             Console.WriteLine("Verification successful!");
             Console.WriteLine(walkthrough.ToString());
+          
+            SpoilerFile.WriteLine(walkthrough.ToString());
+
             return true;
 
             bool HasAllItemsForChest(Chest chest)

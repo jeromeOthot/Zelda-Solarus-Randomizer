@@ -37,13 +37,15 @@ namespace ZeldaSolarusRandomizer
             }
 
             randomizer.PrintChestList();
-
+            
             FileManager fileManager = new FileManager();
+            fileManager.BackupFileRPG_RT();
+            
             fileManager.ReadFile("RPG_RT.ldb");
             fileManager.GetStartChestIndex();
             fileManager.SetChestList(randomizer.ChestsList);
             fileManager.SetSeedByte(seed);
-            fileManager.Write("RPG_RT_output.ldb");
+            fileManager.WriteOutputGame("RPG_RT_output.ldb");
 
             Console.WriteLine("Generation complete !!");
             Console.Read();  
