@@ -34,7 +34,7 @@ namespace ZeldaSolarusRandomizer
         public void GetStartChestIndex()
         {
             bool isFound = false;
-            int nbByteBeforeStartIndex = 22;
+            int nbByteBeforeStartIndex = 34;
             byte[] startData = {
                 0x44, 0x42, 0x5F, 0x56, 0x41, 0x52, 0x49, 0x41, 0x42, 0x4C, 0x45, 0x53
             };

@@ -9,6 +9,7 @@ namespace ZeldaSolarusRandomizer
         static void Main(string[] args)
         {
             int seed = 0;
+            string output = @"..\..\..\..\jeu zelda_mystery_of_solarus_randomizer\RPG_RT.ldb";
             Console.Write("Enter the Seed number: ");
             string input = Console.ReadLine();
             Console.WriteLine(" ");
@@ -45,7 +46,7 @@ namespace ZeldaSolarusRandomizer
             fileManager.GetStartChestIndex();
             fileManager.SetChestList(randomizer.ChestsList);
             fileManager.SetSeedByte(seed);
-            fileManager.WriteOutputGame("RPG_RT_output.ldb");
+            fileManager.WriteOutputGame(output);
 
             Console.WriteLine("Generation complete !!");
             Console.Read();  
