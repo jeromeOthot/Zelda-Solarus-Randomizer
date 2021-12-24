@@ -10,7 +10,8 @@ namespace ZeldaSolarusRandomizer
         public byte[] _fileBytes;
 
         public int StartChestIndex { get; set; }
-        public int StartSeedIndex => StartChestIndex + (166 * 14);
+        public int StartSeedIndex => StartChestIndex + (166 * NB_BYTES_FOR_NEXT_CHEST);
+        public int StartOptionIndex => StartSeedIndex + (6 * NB_BYTES_FOR_NEXT_CHEST);
 
         public void ReadFile(string fileName)
         {
@@ -88,6 +89,19 @@ namespace ZeldaSolarusRandomizer
                 seed = seed/16;
                 hexSeed = (byte)value;
                 _fileBytes[StartSeedIndex + 14 *i] = hexSeed;
+            }
+        }
+
+        public void SetOptionByte(int option)
+        {
+            byte hexOption;
+            int value;
+            for (int i = 0; i < 2; i++)
+            {
+                value = option % 16;
+                option = option / 16;
+                hexOption = (byte)value;
+                _fileBytes[StartOptionIndex + 14 * i] = hexOption;
             }
         }
 

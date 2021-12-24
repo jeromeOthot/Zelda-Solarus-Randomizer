@@ -12,6 +12,8 @@ namespace ZeldaSolarusRandomizer
         public const int NB_CHEST = 166;
         public const int NB_HEART = 10;
         public const int NB_QUARTER_HEART = 28;
+        public const int MAX_SEED_NUMBER = 16777215; //FFFFFF
+        public const int MAX_OPTIONS = 255; //FF
 
         private readonly ItemType[] UsefulItems = new ItemType[29] { ItemType.Arc, ItemType.Armure,  ItemType.Boomerang, ItemType.Bottes, ItemType.Bouclier_Miroir, ItemType.Bouteille_Vide,
             ItemType.Cle_Bois, ItemType.Cle_Fer, ItemType.Cle_Glace, ItemType.Cle_Pierre, ItemType.Cle_Roc, ItemType.Cle_Rouge, ItemType.Cle_Terre, ItemType.Cle_Os,
@@ -39,13 +41,45 @@ namespace ZeldaSolarusRandomizer
         public StreamWriter SpoilerFile { get; set; }
         public List<int> ChestPool = new List<int>();
         public List<Chest> ChestsList { get; set; }
+        public int Seed { get; set; }
+        public OptionsEnum Option { get; set; }
+
         Random random;
 
-        public Randomizer(int seed)
+        public Randomizer()
         {
-            random = new Random(seed);
+            EnterSeed();
+            EnterOption();
+            random = new Random(Seed);
             SpoilerFile = new StreamWriter(SPOILER_FILE);
-            WriteSpoilerHeader(seed);
+            WriteSpoilerHeader(Seed);
+        }
+
+        public void EnterSeed()
+        {
+            int seed = 0;
+            Console.Write("Enter the Seed number: ");
+            string input = Console.ReadLine();
+            Console.WriteLine(" ");
+
+            int.TryParse(input, out seed);
+            if (seed <= 0 || seed > MAX_SEED_NUMBER)
+            {
+                Random randomizerSeed = new Random();
+                seed = randomizerSeed.Next(1, MAX_SEED_NUMBER);
+            }
+            this.Seed = seed;
+        }
+
+        public void EnterOption()
+        {
+           // int option = 0;
+            Console.Write("Enter the option number: ");
+            string input = Console.ReadLine();
+            Console.WriteLine(" ");
+
+            int.TryParse(input, out int option);
+            this.Option = (OptionsEnum)option;
         }
 
         public void InitChestPool()
