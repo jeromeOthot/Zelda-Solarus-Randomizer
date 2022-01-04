@@ -120,14 +120,7 @@
   {
     "Id": 9,
     "Type": 0,
-    "Dependencies": [
-      [
-        21,
-        28,
-        7,
-        10
-      ]
-    ],
+    "Dependencies": [],
     "Zone": 0,
     "Location": "Magasin debut (clé rouge)",
     "ParentLocation": "Village Cocorico",
