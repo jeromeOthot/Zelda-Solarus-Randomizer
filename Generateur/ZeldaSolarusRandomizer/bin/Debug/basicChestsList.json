@@ -3017,7 +3017,12 @@
         30,
         13,
         34
-      ]
+      ],
+	  [
+	    28,
+	    29,
+		31
+	  ]
     ],
     "Zone": 0,
     "Location": "coffre dark palace haut",
@@ -3037,7 +3042,12 @@
         30,
         13,
         34
-      ]
+      ],
+	  [
+	    28,
+	    29,
+		31
+	  ]
     ],
     "Zone": 0,
     "Location": "coffre dark palace bas",
@@ -3058,7 +3068,13 @@
         13,
         34,
         20
-      ]
+      ],
+	  [
+	    28,
+	    29,
+		31,
+		20
+	  ]
     ],
     "Zone": 0,
     "Location": "Grand Coffre",
