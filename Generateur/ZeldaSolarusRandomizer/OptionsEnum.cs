@@ -11,5 +11,6 @@ namespace ZeldaSolarusRandomizer
         None = 0,
         NoBoss = 1,
         NoImageBoss = 2
+        NoHistory = 4
     }
 }
