@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace ZeldaSolarusRandomizer
 {
+    [Flags]
     public enum OptionsEnum
     {
         None = 0,
         NoBoss = 1,
-        NoImageBoss = 2
+        NoImageBoss = 2,
         NoHistory = 4
     }
 }
