@@ -296,11 +296,7 @@
   {
     "Id": 23,
     "Type": 0,
-    "Dependencies": [      
-      [
-        28
-      ]
-    ],
+    "Dependencies": [],
     "Zone": 0,
     "Location": "Coffre a droite du 1er donjon",
     "ParentLocation": "Overworld",
@@ -3105,11 +3101,7 @@
     "Type": 0,
     "Dependencies": [
       [
-        33
-      ],
-      [
-        28,
-        33
+        12
       ]
     ],
     "Zone": 0,
