@@ -116,19 +116,5 @@ namespace ZeldaSolarusRandomizer
 
             }
         }
-
-        /*
-        public void WriteSpoiler(string outputFileName)
-        {
-            string spoilerFile = "";
-            using (BinaryWriter writer = new BinaryWriter(File.Open(outputFileName, FileMode.Create)))
-            {
-                foreach (byte data in _fileBytes)
-                {
-                    writer.Write(data);
-                }
-
-            }
-        }*/
     }
 }
