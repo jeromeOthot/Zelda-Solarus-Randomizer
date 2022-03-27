@@ -8,7 +8,7 @@ namespace ZeldaSolarusRandomizer
 {
     public class Randomizer
     {
-        public const string SPOILER_FILE = @"..\..\..\..\Spoiler.txt";
+        public const string SPOILER_FILE = @"..\..\..\..\Spoiler2.txt";
         public const int NB_CHEST = 166;
         public const int NB_HEART = 10;
         public const int NB_QUARTER_HEART = 28;
