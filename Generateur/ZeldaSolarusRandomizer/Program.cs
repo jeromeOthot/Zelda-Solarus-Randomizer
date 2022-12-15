@@ -9,7 +9,7 @@ namespace ZeldaSolarusRandomizer
         static void Main(string[] args)
         {
            
-            string rpgrtFile = @"..\..\..\..\jeu zelda_mystery_of_solarus_randomizer\RPG_RT.ldb";
+            string rpgrtFile = @"jeu zelda_mystery_of_solarus_randomizer\RPG_RT.ldb";
             Randomizer randomizer = new Randomizer();
             
             bool success = false;

@@ -16,17 +16,5 @@ namespace ZeldaSolarusRandomizer
         {
             this.randomizer = randomizer;
         }
-
-        /*
-        public bool CheckGame()
-        {
-            CheckChestNoDepencies();
-        }
-
-        public bool CheckChestNoDepencies()
-        {
-
-        } */
-
     }
 }

@@ -27,8 +27,8 @@ namespace ZeldaSolarusRandomizer
 
         public void BackupFileRPG_RT()
         {
-            string source = @"..\..\..\..\jeu zelda_mystery_of_solarus_randomizer\RPG_RT.ldb";
-            string dest = @"..\..\..\..\jeu zelda_mystery_of_solarus_randomizer\RPG_RT_Backup.ldb";
+            string source = @"jeu zelda_mystery_of_solarus_randomizer\RPG_RT.ldb";
+            string dest = @"jeu zelda_mystery_of_solarus_randomizer\RPG_RT_Backup.ldb";
             File.Copy(source, dest, true);
         }
 
