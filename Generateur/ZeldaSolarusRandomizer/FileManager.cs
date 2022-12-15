@@ -95,7 +95,8 @@ namespace ZeldaSolarusRandomizer
         public void SetOptionByte(int option)
         {
             byte hexOption;
-            int value;
+            int value = 0;
+            
             for (int i = 0; i < 2; i++)
             {
                 value = option % 16;
