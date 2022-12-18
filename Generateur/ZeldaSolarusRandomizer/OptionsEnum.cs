@@ -13,6 +13,7 @@ namespace ZeldaSolarusRandomizer
         NoBoss = 1,
         NoImageBoss = 2,
         NoHistory = 4,
-		Skip9rdTemple = 8
+		Skip9rdTemple = 8,
+		DesactivateBigPuzzle = 16
     }
 }

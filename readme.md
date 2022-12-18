@@ -14,4 +14,5 @@ Aucun boss = 1,
 Aucun boss a image = 2,
 Sans Histoire = 4
 Sauter le 9e temple et aller a ganon directement = 8
+Désactive les gros puzzles = 16
 ```
