@@ -1,0 +1,7 @@
+///////////////////// Boss 01: Facade ///////////////
+Inspiration: https://www.youtube.com/watch?v=ogIhlrzQMlk&ab_channel=ZeldapediaVideo
+			https://www.youtube.com/watch?v=jjuMCwZusvc&ab_channel=ZeldapediaVideo
+			 https://www.youtube.com/watch?v=BpKemLB2Dyc&ab_channel=ZeldapediaVideo (Best pour le 1er boss, simple et pas trop dur)
+			 
+Un boss sur le plancher auquel tu doit pitcher des bombes au bon moment sur ca face.
+Le boss pitche des boules de feu ou fait des troues dans le plancher

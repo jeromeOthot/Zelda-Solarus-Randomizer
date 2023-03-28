@@ -1,113 +1,110 @@
 -----------------------------------------------------------------------------------------
-Spoiler: seed no. 4865206
+Spoiler: seed no. 496752
 -----------------------------------------------------------------------------------------
-Sphere 0: Location: Village Cocorico - Patisserie tarte Item: Palmes
-Sphere 0: Location: Village Cocorico - Patisserie bouteille Item: Bouclier_Miroir
-Sphere 0: Location: Village Cocorico - Maison Sahasrahla sage Item: Gant_Force
-Sphere 0: Location: Village Cocorico - Magasin debut (clé rouge) Item: Cle_Glace
-Sphere 0: Location: Village Cocorico - Casino Item: Gant_Force
-Sphere 0: Location: Village Cocorico - Caverne forgeron Item: Plume
-Sphere 0: Location: Village Cocorico - Caverne forgeron Item: Cle_Roc
-Sphere 1: Location: Caverne - Grotte boule de feu vertical Item: Cle_Terre
-Sphere 1: Location: Overworld - Bazard du coin 10x red rupees Item: Cle_Os
-Sphere 1: Location: Donjon 2 - Quart Coeur Item: Pierre_inferno
-Sphere 1: Location: Donjon 2 - Coffre puzzle bomb Item: Cle_Bois
-Sphere 1: Location: Village Cocorico - Maison Sahasrahla quart de coeur Item: Grappin
-Sphere 1: Location: Village Cocorico - Maison Sahasrahla arc Item: Somaria_Canne
-Sphere 2: Location: Caverne - Grotte de bois coffre 2 Item: Pierre_inferno
-Sphere 2: Location: Caverne - fée montagne terreur quart coeur Item: Cle_Fer
-Sphere 2: Location: Caverne - Grotte Jumelle - droite Item: Lanterne
-Sphere 2: Location: Caverne - Grotte clé de Terre Item: Miroir_vert
-Sphere 2: Location: Caverne - Grotte clé de Terre Item: Cle_Pierre
-Sphere 3: Location: Cavernes - Caverne vers le 8e temple quart de coeur canne Item: Arc
-Sphere 3: Location: Caverne - Grotte de fer Item: Pierre_inferno
-Sphere 3: Location: Donjon 3 - Grand Coffre Item: Edelwiss
-Sphere 4: Location: Donjon 6 - Coeur Item: Bottes
-Sphere 4: Location: Donjon 6 - Grand Coffre Item: Bouteille_Vide
-Sphere 4: Location: Donjon 4 - quart cœur interieur Item: Armure
-Sphere 5: Location: 8e dongeon - Coeur Item: code_secret
-Sphere 5: Location: 8e dongeon - Coffre bloc vert Item: Cle_Rouge
-Sphere 5: Location: Donjon 5 - Grand Coffre Item: Lingot_Or
+Sphere 0: Location: Village Cocorico - coffre colline Item: Cle_Bois
+Sphere 0: Location: Village Cocorico - Patisserie tarte Item: Grappin
+Sphere 0: Location: Village Cocorico - Patisserie bouteille Item: Gant_Force
+Sphere 0: Location: Village Cocorico - Magasin debut (clé rouge) Item: Somaria_Canne
+Sphere 0: Location: Village Cocorico - Caverne forgeron Item: Gant_Force
+Sphere 0: Location: Village Cocorico - Caverne forgeron Item: Cle_Glace
+Sphere 1: Location: Caverne - Grotte de bois coffre 6 Item: Pierre_inferno
+Sphere 1: Location: Caverne - Grotte de bois coffre 3 Item: Tarte
+Sphere 1: Location: Caverne - Grotte de bois coffre 2 Item: code_secret
+Sphere 1: Location: Overworld - Coffre gauche mur a surprise Item: Pierre_inferno
+Sphere 1: Location: Village Cocorico - Maison Sahasrahla quart de coeur Item: Cle_Terre
+Sphere 2: Location: Overworld - Murs aux surprises Item: Miroir_vert
+Sphere 2: Location: Donjon 1 - Coeur Item: Lanterne
+Sphere 2: Location: Caverne - Grotte clé de Terre Item: Bottes
+Sphere 3: Location: 7e dongeon - quart de cœur Item: Palmes
+Sphere 3: Location: Caverne - Caverne clé de fer Item: Bouteille_Vide
+Sphere 3: Location: Donjon 3 - coffre sous l'eau haut Item: Armure
+Sphere 3: Location: Donjon 3 - quart cœur exterieur Item: Edelwiss
+Sphere 3: Location: Donjon 3 - quart cœur interieur Item: Pierre_inferno
+Sphere 4: Location: Caverne - Grotte clé de Glace Item: Cle_Os
+Sphere 4: Location: Overworld - Passage sous-terain cascade coffre Item: Cle_Roc
+Sphere 4: Location: Village Cocorico - Maison Sahasrahla salle glace Item: Arc
+Sphere 5: Location: Donjon 5 - Grand Coffre Item: Bouclier_Miroir
+Sphere 5: Location: Donjon 2 - Quart Coeur Item: Plume
 
 -----------------------------------------------------------------------------------------
-Chest 0: Village Cocorico - Link house -> Rupee1
-Chest 1: Village Cocorico - Link house -> Rupee1
-Chest 2: Village Cocorico - Link house -> Rupees50
-Chest 3: Village Cocorico - Caverne forgeron -> Cle_Roc
-Chest 4: Village Cocorico - Caverne forgeron -> Plume
-Chest 5: Village Cocorico - Caverne forgeron dark -> Rupee1
-Chest 6: Village Cocorico - Casino -> Gant_Force
+Chest 0: Village Cocorico - Link house -> Rupees20
+Chest 1: Village Cocorico - Link house -> Rupees50
+Chest 2: Village Cocorico - Link house -> Rupee1
+Chest 3: Village Cocorico - Caverne forgeron -> Cle_Glace
+Chest 4: Village Cocorico - Caverne forgeron -> Gant_Force
+Chest 5: Village Cocorico - Caverne forgeron dark -> Rupees50
+Chest 6: Village Cocorico - Casino -> Rupees50
 Chest 7: Village Cocorico - Casino -> Rupees50
-Chest 8: Village Cocorico - Casino -> Rupees50
-Chest 9: Village Cocorico - Magasin debut (clé rouge) -> Cle_Glace
-Chest 10: Village Cocorico - Maison Sahasrahla sage -> Gant_Force
-Chest 11: Village Cocorico - Maison Sahasrahla arc -> Somaria_Canne
-Chest 12: Village Cocorico - Maison Sahasrahla quart de coeur -> Grappin
-Chest 13: Village Cocorico - Maison Sahasrahla salle glace -> Rupees50
-Chest 14: Village Cocorico - Patisserie bouteille -> Bouclier_Miroir
-Chest 15: Village Cocorico - Patisserie tarte -> Palmes
-Chest 16: Caverne - Grotte clé de Terre -> Rupee1
-Chest 17: Caverne - Grotte clé de Terre -> Rupees50
-Chest 18: Caverne - Grotte clé de Terre -> Cle_Pierre
+Chest 8: Village Cocorico - Casino -> Rupee1
+Chest 9: Village Cocorico - Magasin debut (clé rouge) -> Somaria_Canne
+Chest 10: Village Cocorico - Maison Sahasrahla sage -> Rupees50
+Chest 11: Village Cocorico - Maison Sahasrahla arc -> Rupees50
+Chest 12: Village Cocorico - Maison Sahasrahla quart de coeur -> Cle_Terre
+Chest 13: Village Cocorico - Maison Sahasrahla salle glace -> Arc
+Chest 14: Village Cocorico - Patisserie bouteille -> Gant_Force
+Chest 15: Village Cocorico - Patisserie tarte -> Grappin
+Chest 16: Caverne - Grotte clé de Terre -> Rupees20
+Chest 17: Caverne - Grotte clé de Terre -> Bottes
+Chest 18: Caverne - Grotte clé de Terre -> Rupees20
 Chest 19: Caverne - Grotte clé de Terre -> Rupees20
-Chest 20: Caverne - Grotte clé de Terre -> Miroir_vert
+Chest 20: Caverne - Grotte clé de Terre -> Rupee1
 Chest 21: Caverne - Grotte clé de Terre -> Rupees20
-Chest 22: Village Cocorico - coffre colline -> Rupees20
+Chest 22: Village Cocorico - coffre colline -> Cle_Bois
 Chest 23: Overworld - Coffre a droite du 1er donjon -> Rupees20
 Chest 24: Overworld - Quart de cœur puit -> Rupees20
-Chest 25: Overworld - Coffre gauche mur a surprise -> Rupees20
-Chest 26: Overworld - coffre arriere  boutique -> Rupees100
-Chest 27: Overworld - coffre gauche chute -> Rupees20
+Chest 25: Overworld - Coffre gauche mur a surprise -> Pierre_inferno
+Chest 26: Overworld - coffre arriere  boutique -> Rupees20
+Chest 27: Overworld - coffre gauche chute -> Cle_Fer
 Chest 28: Overworld - Coffre vigne -> Rupees20
-Chest 29: Donjon 1 - Grand Coffre -> Armure
-Chest 30: Donjon 1 - Quart cœur exterieur -> Rupees100
+Chest 29: Donjon 1 - Grand Coffre -> Rupees20
+Chest 30: Donjon 1 - Quart cœur exterieur -> Rupee1
 Chest 31: Donjon 1 - Coffre switch -> Donjon_Carte
 Chest 32: Donjon 1 - coffre puzzle bloc -> Donjon_Grande_Cle
 Chest 33: Donjon 1 - quart de cœur interieur -> Rupee1
 Chest 34: Donjon 1 - coffre clé du maitre -> Donjon_Cle_Maitre
-Chest 35: Donjon 1 - Coeur -> Rupees50
+Chest 35: Donjon 1 - Coeur -> Lanterne
 Chest 36: Donjon 1 - Coffre labyrinthe -> Donjon_Compas
 Chest 37: Caverne - Grotte Jumelle - gauche -> Rupee1
-Chest 38: Caverne - Grotte Jumelle - droite -> Lanterne
-Chest 39: Donjon 2 - Coffre puzzle bomb -> Cle_Bois
+Chest 38: Caverne - Grotte Jumelle - droite -> Rupee1
+Chest 39: Donjon 2 - Coffre puzzle bomb -> Rupees100
 Chest 40: Donjon 2 - Coffre ouest -> Donjon_Carte
 Chest 41: Donjon 2 - Coffre gauche save point -> Donjon_Grande_Cle
 Chest 42: Donjon 2 - Coffre droite save point -> Donjon_Compas
-Chest 43: Donjon 2 - Grand Coffre -> Rupee1
+Chest 43: Donjon 2 - Grand Coffre -> Rupees100
 Chest 44: Donjon 2 - coffre 6 switch -> Donjon_Cle_Maitre
-Chest 45: Donjon 2 - Coeur -> Rupees20
-Chest 46: Donjon 2 - Quart Coeur -> Pierre_inferno
-Chest 47: Donjon 5 - Chateau Hyrule Cachot -> Rupees20
+Chest 45: Donjon 2 - Coeur -> Coeur
+Chest 46: Donjon 2 - Quart Coeur -> Plume
+Chest 47: Donjon 5 - Chateau Hyrule Cachot -> QuartCoeur
 Chest 48: Caverne - Caverne clé rouge -> QuartCoeur
 Chest 49: Donjon 3 - coffre sous l'eau haut -> Donjon_Carte
 Chest 50: Donjon 3 - coffre des téléporteur -> Donjon_Compas
-Chest 51: Donjon 3 - quart cœur interieur -> QuartCoeur
+Chest 51: Donjon 3 - quart cœur interieur -> Pierre_inferno
 Chest 52: Donjon 3 - coffre sous l'eau droite -> Donjon_Petite_cle
 Chest 53: Donjon 3 - coffre du trou roches -> Donjon_Grande_Cle
-Chest 54: Donjon 3 - Grand Coffre -> Edelwiss
-Chest 55: Donjon 3 - quart cœur exterieur -> Coeur
+Chest 54: Donjon 3 - Grand Coffre -> QuartCoeur
+Chest 55: Donjon 3 - quart cœur exterieur -> Edelwiss
 Chest 56: Donjon 3 - coffre sous l'eau haut -> Donjon_Cle_Maitre
-Chest 57: Donjon 3 - coffre sous l'eau haut -> Coeur
-Chest 58: Overworld - Murs aux surprises -> Coeur
-Chest 59: Caverne - Caverne de Billy -> Bombes5
+Chest 57: Donjon 3 - coffre sous l'eau haut -> Armure
+Chest 58: Overworld - Murs aux surprises -> Miroir_vert
+Chest 59: Caverne - Caverne de Billy -> Bouteille_Energie
 Chest 60: Donjon 4 - coffre sud -> Donjon_Carte
 Chest 61: Donjon 4 - coffre nord -> Donjon_Grande_Cle
 Chest 62: Donjon 4 - coffre ouest -> Coeur
 Chest 63: Donjon 4 - coffre est -> Donjon_Compas
 Chest 64: Donjon 4 - Grand Coffre -> QuartCoeur
 Chest 65: Donjon 4 - Coffre chambre froide -> Donjon_Cle_Maitre
-Chest 66: Donjon 4 - Coeur complet -> QuartCoeur
-Chest 67: Donjon 4 - quart cœur interieur -> Armure
+Chest 66: Donjon 4 - Coeur complet -> BouclierBois
+Chest 67: Donjon 4 - quart cœur interieur -> QuartCoeur
 Chest 68: Donjon 5 - coffre cachot derriere garde -> Donjon_Carte
-Chest 69: Donjon 5 - quart de cœur ext. Canon -> QuartCoeur
-Chest 70: Donjon 5 - coffre entrée -> QuartCoeur
+Chest 69: Donjon 5 - quart de cœur ext. Canon -> Fleches10
+Chest 70: Donjon 5 - coffre entrée -> Coeur
 Chest 71: Donjon 5 - coffre droite entrée -> Donjon_Compas
 Chest 72: Donjon 5 - coffre fleches -> Donjon_Grande_Cle
 Chest 73: Donjon 5 - Coffre 6 pots -> Donjon_Petite_cle
-Chest 74: Donjon 5 - Grand Coffre -> Lingot_Or
+Chest 74: Donjon 5 - Grand Coffre -> Bouclier_Miroir
 Chest 75: Donjon 5 - coffre cachot garde qui tourne -> Donjon_Cle_Maitre
-Chest 76: Donjon 5 - quart de cœur int, -> QuartCoeur
-Chest 77: Donjon 5 - Coeur -> Bombes5
+Chest 76: Donjon 5 - quart de cœur int, -> Fleches10
+Chest 77: Donjon 5 - Coeur -> QuartCoeur
 Chest 78: Caverne - grotte pierre de feu 01 -> QuartCoeur
 Chest 79: Caverne - Caverne beaumont coffre -> Donjon_Petite_cle
 Chest 80: Caverne - Caverne beaumont coffre -> Donjon_Petite_cle
@@ -117,82 +114,82 @@ Chest 83: Caverne - Caverne beaumont coffre -> Donjon_Petite_cle
 Chest 84: Caverne - Caverne beaumont coffre -> Donjon_Petite_cle
 Chest 85: Caverne - Caverne beaumont coffre final -> QuartCoeur
 Chest 86: Caverne - Montagne des terreurs coffre -> QuartCoeur
-Chest 87: Caverne - Montagne des terreurs quart de coeur -> Epee
+Chest 87: Caverne - Montagne des terreurs quart de coeur -> Cle_Rouge
 Chest 88: Donjon 6 - Coffre 3 lumieres -> Donjon_Carte
-Chest 89: Donjon 6 - coffre riviere -> Fleches10
+Chest 89: Donjon 6 - coffre riviere -> QuartCoeur
 Chest 90: Donjon 6 - Coffre 3 escaliers -> Donjon_Petite_cle
 Chest 91: Donjon 6 - coffre dans l'eau -> Donjon_Compas
 Chest 92: Donjon 6 - coffre switch -> Donjon_Petite_cle
 Chest 93: Donjon 6 - coffre rebord -> Donjon_Grande_Cle
 Chest 94: Donjon 6 - quart de coeur -> QuartCoeur
-Chest 95: Donjon 6 - Grand Coffre -> Bouteille_Vide
+Chest 95: Donjon 6 - Grand Coffre -> Coeur
 Chest 96: Donjon 6 - coffre labyrinthe switch -> Donjon_Carte
 Chest 97: Donjon 6 - coffre 3 roches -> Donjon_Cle_Maitre
-Chest 98: Donjon 6 - Coeur -> Bottes
-Chest 99: Caverne - Caverne clé de fer -> QuartCoeur
-Chest 100: Caverne - fée montagne terreur fée -> QuartCoeur
-Chest 101: Caverne - fée montagne terreur quart coeur -> Cle_Fer
-Chest 102: Caverne - Grotte de fer -> Pierre_inferno
+Chest 98: Donjon 6 - Coeur -> Carte_Monde
+Chest 99: Caverne - Caverne clé de fer -> Bouteille_Vide
+Chest 100: Caverne - fée montagne terreur fée -> Coeur
+Chest 101: Caverne - fée montagne terreur quart coeur -> Bombes5
+Chest 102: Caverne - Grotte de fer -> Cle_Pierre
 Chest 103: Caverne - Grotte de pierre Coffre mini-jeu 1 -> QuartCoeur
 Chest 104: Caverne - Grotte de pierre Coffre mini-jeu 2 -> QuartCoeur
 Chest 105: Caverne - Grotte de bois coffre 1 -> QuartCoeur
-Chest 106: Caverne - Grotte de bois coffre 2 -> Pierre_inferno
-Chest 107: Caverne - Grotte de bois coffre 3 -> QuartCoeur
-Chest 108: Caverne - Grotte de bois coffre 4 -> QuartCoeur
-Chest 109: Caverne - Grotte de bois coffre 5 -> QuartCoeur
-Chest 110: Caverne - Grotte de bois coffre 6 -> Bombes5
-Chest 111: Caverne - Grotte de bois coffre 7 -> Coeur
+Chest 106: Caverne - Grotte de bois coffre 2 -> code_secret
+Chest 107: Caverne - Grotte de bois coffre 3 -> Tarte
+Chest 108: Caverne - Grotte de bois coffre 4 -> Fleches10
+Chest 109: Caverne - Grotte de bois coffre 5 -> Coeur
+Chest 110: Caverne - Grotte de bois coffre 6 -> Pierre_inferno
+Chest 111: Caverne - Grotte de bois coffre 7 -> Boomerang
 Chest 112: Overworld - Bazard du coin Quart cœur -> QuartCoeur
-Chest 113: Overworld - Bazard du coin Miroir -> Bombes5
-Chest 114: Overworld - Bazard du coin 10x red rupees -> Cle_Os
-Chest 115: Overworld - Passage sous-terain cascade coffre -> Bouteille_Energie
-Chest 116: Overworld - Passage sous-terain cascade quart coeur -> QuartCoeur
-Chest 117: Caverne - Grotte clé de Glace -> Coeur
-Chest 118: 7e dongeon - quart de cœur -> QuartCoeur
+Chest 113: Overworld - Bazard du coin Miroir -> QuartCoeur
+Chest 114: Overworld - Bazard du coin 10x red rupees -> Epee
+Chest 115: Overworld - Passage sous-terain cascade coffre -> Cle_Roc
+Chest 116: Overworld - Passage sous-terain cascade quart coeur -> Bombes5
+Chest 117: Caverne - Grotte clé de Glace -> Cle_Os
+Chest 118: 7e dongeon - quart de cœur -> Palmes
 Chest 119: 7e dongeon - coffre tube -> Donjon_Petite_cle
 Chest 120: 7e dongeon - Coffre après trou -> Donjon_Carte
 Chest 121: 7e dongeon - Coffre 8 switchs -> Donjon_Compas
-Chest 122: 7e dongeon - Coffre lumieres -> QuartCoeur
+Chest 122: 7e dongeon - Coffre lumieres -> Coeur
 Chest 123: 7e dongeon - Coffre labyrinthe bloc droite -> Donjon_Petite_cle
 Chest 124: 7e dongeon - Coffre bloc serrure -> Donjon_Grande_Cle
-Chest 125: 7e dongeon - Grand coffre -> Fleches10
+Chest 125: 7e dongeon - Grand coffre -> QuartCoeur
 Chest 126: 7e dongeon - Coffre puzzle canne -> Donjon_Cle_Maitre
 Chest 127: 7e dongeon - coffre labyrinthe bloc gauche -> Donjon_Petite_cle
-Chest 128: 7e dongeon - coffre a cote porte maitre -> Tarte
+Chest 128: 7e dongeon - coffre a cote porte maitre -> QuartCoeur
 Chest 129: 7e dongeon - coeur -> QuartCoeur
-Chest 130: Cavernes - Caverne vers le 8e temple quart de coeur canne -> Arc
-Chest 131: Caverne - Caverne vers le 8e temple quart de coeur fall -> BouclierBois
+Chest 130: Cavernes - Caverne vers le 8e temple quart de coeur canne -> QuartCoeur
+Chest 131: Caverne - Caverne vers le 8e temple quart de coeur fall -> QuartCoeur
 Chest 132: 8e dongeon - Coffre puzzle fleches -> Donjon_Petite_cle
 Chest 133: 8e dongeon - Coffre battle ennemies -> Donjon_Carte
-Chest 134: 8e dongeon - Coffre bloc vert -> Cle_Rouge
+Chest 134: 8e dongeon - Coffre bloc vert -> QuartCoeur
 Chest 135: 8e dongeon - Coffre Salle 6 lumieres -> Donjon_Compas
-Chest 136: 8e dongeon - Coffre piques -> Fleches10
+Chest 136: 8e dongeon - Coffre piques -> QuartCoeur
 Chest 137: 8e dongeon - Coffre labyrinthe de trous -> Donjon_Petite_cle
 Chest 138: 8e dongeon - Coffre  entouré switch orange -> Donjon_Petite_cle
 Chest 139: 8e dongeon - Coffre puzzle bloc -> Donjon_Grande_Cle
-Chest 140: 8e dongeon - Grand Coffre -> QuartCoeur
+Chest 140: 8e dongeon - Grand Coffre -> Coeur
 Chest 141: 8e dongeon - Coffre laser -> Donjon_Cle_Maitre
-Chest 142: 8e dongeon - Coeur -> code_secret
-Chest 143: 8e dongeon - Quart de coeur -> QuartCoeur
-Chest 144: Dongeon Secret - coffre dark palace haut -> Coeur
-Chest 145: Dongeon Secret - coffre dark palace bas -> Carte_Monde
+Chest 142: 8e dongeon - Coeur -> Bombes5
+Chest 143: 8e dongeon - Quart de coeur -> Armure
+Chest 144: Dongeon Secret - coffre dark palace haut -> QuartCoeur
+Chest 145: Dongeon Secret - coffre dark palace bas -> QuartCoeur
 Chest 146: Dongeon Secret - Grand Coffre -> QuartCoeur
-Chest 147: Caverne - Grotte boule de feu horizontal -> QuartCoeur
-Chest 148: Caverne - Grotte boule de feu vertical -> Cle_Terre
+Chest 147: Caverne - Grotte boule de feu horizontal -> Bombes5
+Chest 148: Caverne - Grotte boule de feu vertical -> Lingot_Or
 Chest 149: 9e dongeon - undefinded -> Coeur
 Chest 150: 9e dongeon - undefinded -> Donjon_Petite_cle
-Chest 151: 9e dongeon - undefinded -> Magic_cape
+Chest 151: 9e dongeon - undefinded -> Coeur
 Chest 152: 9e dongeon - undefinded -> Donjon_Carte
 Chest 153: 9e dongeon - undefinded -> Donjon_Petite_cle
 Chest 154: 9e dongeon - undefinded -> Donjon_Petite_cle
 Chest 155: 9e dongeon - undefinded -> Donjon_Grande_Cle
-Chest 156: 9e dongeon - undefinded -> Boomerang
+Chest 156: 9e dongeon - undefinded -> QuartCoeur
 Chest 157: 9e dongeon - undefinded -> Donjon_Compas
 Chest 158: 9e dongeon - undefinded -> Donjon_Petite_cle
-Chest 159: 9e dongeon - undefinded -> Coeur
+Chest 159: 9e dongeon - undefinded -> QuartCoeur
 Chest 160: 9e dongeon - undefinded -> Donjon_Petite_cle
 Chest 161: 9e dongeon - undefinded -> Donjon_Petite_cle
 Chest 162: 9e dongeon - undefinded -> Donjon_Petite_cle
 Chest 163: 9e dongeon - undefinded -> Donjon_Petite_cle
 Chest 164: 9e dongeon - undefinded -> Donjon_Petite_cle
-Chest 165: 9e dongeon - undefinded -> Coeur
+Chest 165: 9e dongeon - undefinded -> Magic_cape
