@@ -22,12 +22,15 @@ namespace ZeldaSolarusRandomizer
 
         private readonly ItemType[] rupeeItems = new ItemType[25] { ItemType.Rupee1, ItemType.Rupee1, ItemType.Rupee1, ItemType.Rupee1, ItemType.Rupee1, ItemType.Rupee1, ItemType.Rupee1,
             ItemType.Rupees20, ItemType.Rupees20, ItemType.Rupees20,  ItemType.Rupees20, ItemType.Rupees20, ItemType.Rupees20,  ItemType.Rupees20, ItemType.Rupees20, ItemType.Rupees20,  ItemType.Rupees20,
-            ItemType.Rupees50, ItemType.Rupees50, ItemType.Rupees50, ItemType.Rupees50, ItemType.Rupees50, ItemType.Rupees50,
-            ItemType.Rupees100,ItemType.Rupees100
+            ItemType.Rupees20, ItemType.Rupees20,  ItemType.Rupees20,
+			ItemType.Rupees50, ItemType.Rupees50, ItemType.Rupees50, ItemType.Rupees50, ItemType.Rupees50, ItemType.Rupees50, ItemType.Rupees50, ItemType.Rupees50, 
+            ItemType.Rupees100,ItemType.Rupees100, ItemType.Rupees100, ItemType.Rupees100
            };
         private readonly ItemType[] otherItems = new ItemType[13] {
             ItemType.Bombes5, ItemType.Bombes5, ItemType.Bombes5, ItemType.Bombes5,
-           ItemType.Fleches10, ItemType.Fleches10, ItemType.Fleches10,
+			ItemType.Bombes5, ItemType.Bombes5, ItemType.Bombes5, ItemType.Bombes5,
+           ItemType.Fleches10, ItemType.Fleches10, ItemType.Fleches10, ItemType.Fleches10,
+		   ItemType.Fleches10, ItemType.Fleches10, ItemType.Fleches10,
            ItemType.Armure, ItemType.BouclierBois, ItemType.Bouteille_Energie, ItemType.Carte_Monde, ItemType.Epee, ItemType.Magic_cape
             };
 
